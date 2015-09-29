@@ -53,5 +53,42 @@
         		]
         	}
         ]
+    },
+    "columns": {
+        "title": {
+            "~description": "你的標題"
+        },
+        "title-color": {
+            "~description": "你標題文字的顏色"
+        },
+        "background-image": {
+            "~description": "你的背景圖",
+            "~format": "image"
+        },
+        "sub-title": {
+            "~description": "你的子標題"
+        },
+        "sub-title-color": {
+            "~description": "你子標題的顏色"
+        },
+        "section": {
+            "~description": "你的成員類別",
+            "section-title": {
+                "~description": "你成員類別的類別名稱"
+            },
+            "person": {
+                "~description": "你這個類別的成員",
+                "name": {
+                    "~description": "你這個成員的名稱"
+                },
+                "img-src": {
+                    "~description": "你這個成員的照片",
+                    "~format": "image"
+                },
+                "content": {
+                    "~description": "你這個成員的介紹"
+                }
+            }
+        }
     }
 }
