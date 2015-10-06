@@ -1,52 +1,47 @@
 {
     "layout": "./index.hbs",
     "data": {
-        "title": "Conference Member",
+        "title": "橘子企業",
         "background-image": "http://i.imgur.com/04xjfUM.jpg",
         "title-color": "white",
-        "sub-title": "21st Conference Member list",
+        "sub-title": "團隊成員列表",
         "sub-title-color": "white",
         "section":	[
         	{
-        		"section-title": "Honorary Chair",
+        		"section-title": "創辦人",
         		"person":	[
         			{
-        				"name": "Ipsum sed commodo",
+        				"name": "Johnson",
         				"img-src": "http://i.imgur.com/ob3ejkV.png",
         				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         			}
         		]
         	},
         	{
-        		"section-title": "General Chairs",
+        		"section-title": "核心成員",
         		"person":	[
         			{
-        				"name": "Eleifend lorem ornare",
+        				"name": "Allen",
         				"img-src": "http://i.imgur.com/ob3ejkV.png",
         				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor. <br> Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         			},
         			{
-        				"name": "Cubilia cep lobortis",
+        				"name": "Joe",
         				"img-src": "http://i.imgur.com/ob3ejkV.png",
         				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         			},
         			{
-        				"name": "Non semper interdum",
-        				"img-src": "http://i.imgur.com/ob3ejkV.png",
-        				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
-        			},
-        			{
-        				"name": "Odio laoreet accumsan",
+        				"name": "Jack",
         				"img-src": "http://i.imgur.com/ob3ejkV.png",
         				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         			}
         		]
         	},
         	{
-        		"section-title": "Program Chairs",
+        		"section-title": "實習生",
         		"person":	[
         			{
-        				"name": "Odio laoreet accumsan",
+        				"name": "Ann",
         				"img-src": "http://i.imgur.com/ob3ejkV.png",
         				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
         			}
@@ -59,7 +54,8 @@
             "~description": "你的標題"
         },
         "title-color": {
-            "~description": "你標題文字的顏色"
+            "~description": "標題文字的顏色",
+            "~format": "color"
         },
         "background-image": {
             "~description": "你的背景圖",
@@ -69,24 +65,25 @@
             "~description": "你的子標題"
         },
         "sub-title-color": {
-            "~description": "你子標題的顏色"
+            "~description": "子標題的顏色",
+            "~format": "color"
         },
         "section": {
-            "~description": "你的成員類別",
+            "~description": "團隊成員簡介",
             "section-title": {
-                "~description": "你成員類別的類別名稱"
+                "~description": "成員類別的類別名稱"
             },
             "person": {
-                "~description": "你這個類別的成員",
+                "~description": "這個類別的成員",
                 "name": {
-                    "~description": "你這個成員的名稱"
+                    "~description": "這個成員的名稱"
                 },
                 "img-src": {
-                    "~description": "你這個成員的照片",
+                    "~description": "這個成員的照片",
                     "~format": "image"
                 },
                 "content": {
-                    "~description": "你這個成員的介紹"
+                    "~description": "這個成員的介紹"
                 }
             }
         }
