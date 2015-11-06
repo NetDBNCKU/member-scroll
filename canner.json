@@ -13,7 +13,7 @@
         			{
         				"name": "Johnson",
         				"img-src": "http://i.imgur.com/ob3ejkV.png",
-        				"content": "Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor."
+        				"content": false
         			}
         		]
         	},

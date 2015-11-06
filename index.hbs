@@ -16,18 +16,28 @@
 		</div>
 	</div>
 	<div style="width:200px; height:270px;"></div>
+	{{#if title}}
 	<h1 style="color: {{title-color}};">{{title}}</h1>
+	{{/if}}
+	{{#if sub-title}}
 	<h3 style="color: {{sub-title-color}}">{{sub-title}}</h3>
+	{{/if}}
 	<div id="content" class="container" style="color:#fff; background-color:rgba(0, 0, 0, 0.8); padding: 25px; border-radius: 5px;">
 		{{#each section}}
 		<div class="row">
 			<h2 style="color: white; margin-bottom:20px">{{this.section-title}}</h2>
 			{{#each this.person}}
 			<div class="person col-xs-6 col-sm-4 col-height">
-				<img src="{{this.img-src}}" class="img-circle" style="width: 150px; height:150px;">
+				{{#if this.img-src}}
+					<img src="{{this.img-src}}" class="img-circle" style="width: 150px; height:150px;">
+				{{/if}}
 				<div style="width:20px; height:10px;"></div>
-				<p><b>{{{this.name}}}</b></p>
-				<p style="height:60px; overflow: auto;">{{{this.content}}}</p>
+				{{#if this.name}}
+					<p><b>{{{this.name}}}</b></p>
+				{{/if}}
+				{{#if this.content}}
+					<p style="height:60px; overflow: auto;">{{{this.content}}}</p>
+				{{/if}}
 			</div>
 			{{/each}}
 		</div>
